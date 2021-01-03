@@ -564,4 +564,22 @@ export default {
         padding-bottom: 20px;
     }
 
+    .blue-dot {  
+        height: 10px;
+        width: 10px;
+        background-color: blue;
+        color: blue;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .red-dot {  
+        height: 10px;
+        width: 10px;
+        background-color: red;
+        color: red;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
 </style>

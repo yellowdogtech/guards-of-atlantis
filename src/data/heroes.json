@@ -1527,7 +1527,7 @@
                     "cardType":"green",
                     "path":"alternate",
                     "level": 3,
-                    "initiative": 11,
+                    "initiative": 3,
                     "bonus": {
                         "name": "Lookouts Spyglass",
                         "bonusType": {
@@ -3114,7 +3114,7 @@
             "cards": [
                 {
                     "cardType": "gold",
-                    "name": "Wal the Plank",
+                    "name": "Walk the Plank",
                     "initiative": 12,
                     "skills": [
                         {
@@ -3610,5 +3610,534 @@
                 }  
             ]          
         }
+
+        , 
+        {
+            "name": "Ignatia the Mad",
+            "description": "Ignatia is a ranged Sniper with a wide array of build options, too numerous to list.",
+            "initiative": "Poor",
+            "attack": "Abover Average",
+            "movement": "Very Poor",
+            "defense": "Good",
+            "showCards": false,
+            "cards": [
+                {
+                    "cardType": "gold",
+                    "name": "Chaos Bolt",
+                    "initiative": 11,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 2
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Move",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Basic Attack - Ranger",
+                            "value": 4,
+                            "range": 3,
+                            "text": "<span class='blue-dot'></span>: target a non-adjacent minion in range <br/> <span class='red-dot'></span>: target a non-adjacent hero in range"
+                        }
+                    ]
+                },
+                {                
+                    "cardType": "silver",
+                    "name": "Moment of Equilibrium",
+                    "initiative": 12,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Basic Skill",
+                            "text": "Flip the Tie Breakers marker to the side of your choice. <b>This turn and next turn:</b> It may not be flipped."
+                        }
+                    ]   
+                },
+                {                    
+                    "cardType": "purple",
+                    "name": "Chaos Incarnate",
+                    "initiative": 0,
+                    "skills": [
+                        {
+                            "rank": "Ultimate",
+                            "text": "After you perform a primary action, flip the Tie Breaker token to the other side and repeat this action once."
+                        }
+                    ]   
+                },
+                {
+                    "name": "Playing With Fire",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 7,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 4,
+                            "range":3,
+                            "text": "<span class='blue-dot'></span>: target a hero in range and not in a straight line <br/> <span class='red-dot'></span>: target an adjacent hero"
+                        }
+                    ]
+                },
+                {
+                    "name": "Erratic Fireblast",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 7,
+                    "bonus": {
+                        "name": "Helmet of Protection",
+                        "bonusType": {
+                            "name": "Defense",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 5,
+                            "range": 3,
+                            "text": "<span class='blue-dot'></span>: target a hero in range and not in a straight line <br/> <span class='red-dot'></span>: target an adjacent hero"
+                        }
+                    ]
+                },
+                {
+                    "name": "Indiscriminate Incineration",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 8,
+                    "bonus": {
+                        "name": "Boots of Speed",
+                        "bonusType": {
+                            "name": "Movement",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 7
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 5,
+                            "range":3,
+                            "text": "<span class='blue-dot'></span>: target a hero in range and not in a straight line <br/> <span class='red-dot'></span>: target an adjacent hero. May repeat once on a different target."
+                        }
+                    ]
+                },
+                {
+                    "name": "Tremors",
+                    "cardType": "red",
+                    "path":"alternate",
+                    "level": 2, 
+                    "initiative": 7,
+                    "bonus": {
+                        "name": "Circlet of Awareness",
+                        "bonusType": {
+                            "name": "Initiative",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "range": 4,
+                            "value": 6,
+                            "text": "<span class='blue-dot'></span>: target a non-adjacent unit in range and in a straight line <br/> <span class='red-dot'></span>: target a unit at maximum range."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Crack of Doom",
+                    "path":"alternate",
+                    "cardType": "red",
+                    "level": 3,
+                    "initiative": 8,
+                    "bonus": {
+                        "name": "Orb of Pwer",
+                        "bonusType": {
+                            "name": "Radius",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 7
+                        },                                {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "range": 4,
+                            "value": 6,
+                            "text": "<span class='blue-dot'></span>: target a non-adjacent unit in range and in a straight line <br/> <span class='red-dot'></span>: target a unit at maximum range. May repeat once on a different target."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Abrupt Combustion",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 9,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 2,
+                            "text": "<span class='blue-dot'></span>: Enemy hero in radius adjacent to a minion, discards a card if able. <br/> <span class='red-dot'></span>: Push all adjacent units 1 space."
+                        }
+                    ]
+                },
+                {
+                    "name": "Spontaneous Immolation",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 9,
+                    "bonus": {
+                        "name": "Potion of Dexterity",
+                        "bonusType": {
+                            "name": "Initiative",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "<span class='blue-dot'></span>: Enemy hero in radius adjacent to a minion, discards a card if able. <br/> <span class='red-dot'></span>: Push all adjacent units up to 2 spaces."
+                        }
+                    ]
+                },
+                {
+                    "name": "Violent Conflagration",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 10,
+                    "bonus": {
+                        "name": "Lookouts Spyglass",
+                        "bonusType": {
+                            "name": "Range",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "<span class='blue-dot'></span>: Enemy hero in radius adjacent to a minion, discards a card or is defeated. <br/> <span class='red-dot'></span>: Push all adjacent units up to 3 spaces."
+                        }
+                    ]
+                },
+                {
+                    "name": "Searing Heat",
+                    "cardType":"blue",
+                    "path":"alternate",
+                    "level": 2, 
+                    "initiative": 9,
+                    "bonus": {
+                        "name": "Rune Axe",
+                        "bonusType": {
+                            "name": "Attack",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "<span class='blue-dot'></span>: Adjacent enemy hero discards a card if able. <br/> <span class='red-dot'></span>: Move an enemy hero in radius 1 space."                        
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Scorching Blaze",
+                    "cardType":"blue",
+                    "path":"alternate",
+                    "level": 3,
+                    "initiative": 10,
+                    "bonus": {
+                        "name": "Vorpal Sabre",
+                        "bonusType": {
+                            "name": "Attack",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "<span class='blue-dot'></span>: Adjacent enemy hero discards a card if able. <br/> <span class='red-dot'></span>: Move an enemy hero in radius 1 space and repeat once."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Path of Ashes",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 5,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 3
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "<span class='blue-dot'></span>: Move up to 2 spaces in a straight line. When leaving a space leave a magma token there.<br/> <span class='red-dot'></span>: Place 2 magma tokens in radius."
+                        }
+                    ]
+                },
+                {
+                    "name": "Path of Cinders",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 5,
+                    "bonus": {
+                        "name": "War Talons",
+                        "bonusType": {
+                            "name": "Attack",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {   
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "area":3,
+                            "text": "<span class='blue-dot'></span>: Move up to 3 spaces in a straight line. When leaving a space leave a magma token there.<br/> <span class='red-dot'></span>: Place 3 magma tokens in radius."
+                        }
+                    ]
+                },
+                {
+                    "name": "Path of Flames",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 2,
+                    "bonus": {
+                        "name": "Gloves of Haste",
+                        "bonusType": {
+                            "name": "Initiative",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "area": 3,
+                            "text": "<span class='blue-dot'></span>: Move up to 4 spaces in a straight line. When leaving a space leave a magma token there.<br/> <span class='red-dot'></span>: Place 4 magma tokens in radius."
+                        }
+                    ]
+                },
+                {
+                    "name": "Unstable Portal",
+                    "cardType":"green",
+                    "path":"alternate",
+                    "level": 2,
+                    "initiative": 5,
+                    "bonus": {
+                        "name": "Enchanted Armor",
+                        "bonusType": {
+                            "name": "Defense",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area":3,
+                            "text": "<span class='blue-dot'></span>: Move up to a space in radius.<br/> <span class='red-dot'></span>: swap places with a unit in radius."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Chaos Gate",
+                    "cardType":"green",
+                    "path":"alternate",
+                    "level": 3,
+                    "initiative": 4,
+                    "bonus": {
+                        "name": "Gaunlet of Defense",
+                        "bonusType": {
+                            "name": "Defense",
+                            "value": 1
+                        }
+                    },
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area":4,
+                            "text": "<span class='blue-dot'></span>: Move up to a space in radius.<br/> <span class='red-dot'></span>: swap places with a unit in radius."
+                        }
+                    ]
+                }  
+            ]          
+        }
+
     ]
 }
