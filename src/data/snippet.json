@@ -1,498 +1,438 @@
-,
+{
+    "name": "Min the Dragon Monk",
+    "description": "Min is a Melee Initiator, with Controller, Escape, Area Denial, Direct Damage and Tank Options.",
+    "initiative": "Exceptional",
+    "attack": "Below Average",
+    "movement": "Average",
+    "defense": "Below Average",
+    "showCards": false,
+    "cards": [
         {
-            "name": "Min the Dragon Monk",
-            "description": "Min is a Melee Initiator, with Controller, Escape, Area Denial, Direct Damage and Tank Options.",
-            "initiative": "Exceptional",
-            "attack": "Below Average",
-            "movement": "Average",
-            "defense": "Below Average",
-            "showCards": false,
-            "cards": [
+            "cardType": "gold",
+            "name": "Fast as Lightning",
+            "initiative": 13,
+            "skills": [
                 {
-                    "cardType": "gold",
-                    "name": "Draw Blood",
-                    "initiative": 11,
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 3
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Move",
-                            "value": 1
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Basic Attack",
-                            "text": "After the attack discard a card if able. If you discard a defense card, you may perform its primary action"
-                        }
-                    ]
-                },
-                {                
-                    "cardType": "silver",
-                    "name": "Chilling Howl",
-                    "initiative": 13,
-                    "skills": [
-                        {
-                            "rank": "primary",
-                            "skillType": "Basic Defense / Skill Area",
-                            "area":3,
-                            "value": 6,
-                            "text": "You may discard a card. <b>This Round:</b> Enemy heroes in radius get -1 Initiative for every card in your discard."
-                        }
-                    ]   
-                },
-                {                    
-                    "cardType": "purple",
-                    "name": "Death Grip",
-                    "initiative": 0,
-                    "skills": [
-                        {
-                            "rank": "Ultimate",
-                            "text": "As long as you are adjacent to exactly one enemy hero, that hero may not move."
-                        }
-                    ]   
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 1
                 },
                 {
-                    "name": "Trace",
-                    "cardType": "red",
-                    "path":"primary",
-                    "level": 1,
-                    "initiative": 7,
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 5
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 4
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Attack",
-                            "value": 4,
-                            "text": "If you have a card in the discard: move up to 2 spaces before the attack and may not target minions"
-                        }
-                    ]
+                    "rank": "secondary",
+                    "skillType": "Move",
+                    "value": 1
                 },
                 {
-                    "name": "Chase",
-                    "cardType": "red",
-                    "path":"primary",
-                    "level": 2,
-                    "initiative": 8,
-                    "bonus": {
-                        "name": "Helmet of Protection",
-                        "bonusType": {
-                            "name": "Defense",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 5
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 4
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Attack",
-                            "value": 4,
-                            "text": "If you have a card in the discard: move up to 3 spaces before the attack and may not target minions"
-                        }
-                    ]
+                    "rank": "primary",
+                    "skillType": "Basic Attack - Ranged",
+                    "range": 1,
+                    "value": 2,
+                    "text": "You may apply the text on your other played or discarded attack card to this attack"
+                }
+            ]
+        },
+        {                
+            "cardType": "silver",
+            "name": "Smoke Bomb",
+            "initiative": 12,
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 1
                 },
                 {
-                    "name": "Hunt Down",
-                    "cardType": "red",
-                    "path":"primary",
-                    "level": 3, 
-                    "initiative": 8,
-                    "bonus": {
-                        "name": "Orb of Power",
-                        "bonusType": {
-                            "name": "Radius",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 6
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 4
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Attack",
-                            "value": 5,
-                            "text": "If you have a card in the discard: move up to 4 spaces before the attack and may not target minions"
-                        }
-                    ]
+                    "rank": "primary",
+                    "skillType": "Basic Skill - Area",
+                    "area":2,
+                    "text": "Place a smoke bomb in radius. You may move through the smoke bomb. Enemy heroes may not count the space with a smoke bomb when calculating range or radius."
+                }
+            ]   
+        },
+        {                    
+            "cardType": "purple",
+            "name": "Flurry of Blows",
+            "initiative": 0,
+            "skills": [
+                {
+                    "rank": "Ultimate",
+                    "text": "When you perform an Attack action you may repeat it once. Choose a different target for the second attack if able."
+                }
+            ]   
+        },
+        {
+            "name": "Crane Stance",
+            "cardType": "red",
+            "path":"primary",
+            "level": 1,
+            "initiative": 9,
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 6
                 },
                 {
-                    "name": "Blunt Force",
-                    "cardType": "red",
-                    "path":"alternate",
-                    "level": 2, 
-                    "initiative": 8,
-                    "bonus": {
-                        "name": "Circlet of Awareness",
-                        "bonusType": {
-                            "name": "Initiative",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 7
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 4
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Attack",
-                            "value": 4,
-                            "text": "If you target enemy hero you may retrieve a discarded defense card. If you do gain +2 attack."
-                        }
-                    ]
-                }, 
-                {
-                    "name": "Overwhelm",
-                    "path":"alternate",
-                    "cardType": "red",
-                    "level": 3,
-                    "initiative": 9,
-                    "bonus": {
-                        "name": "Orb of Power",
-                        "bonusType": {
-                            "name": "Radius",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 8
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 4
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Attack",
-                            "value": 5,
-                            "text": "If you target enemy hero you may retrieve a discarded defense card. If you do gain +3 attack."
-                        }
-                    ]
-                }, 
-                {
-                    "name": "Scare Off",
-                    "cardType":"blue",
-                    "path":"primary",
-                    "level": 1,
-                    "initiative": 10,
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 3
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Defense / Skill - Area",
-                            "value": 5,
-                            "area": 1,
-                            "text": "You may move an adjacent enemey unity to a space outside of radius b the shortest path."
-                        }
-                    ]
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 4
                 },
                 {
-                    "name": "Threaten",
-                    "cardType":"blue",
-                    "path":"primary",
-                    "level": 2,
-                    "initiative": 10,
-                    "bonus": {
-                        "name": "Magic Shield",
-                        "bonusType": {
-                            "name": "Defense",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 3
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Defense / Skill - Area",
-                            "value": 5,
-                            "area": 2,
-                            "text": "You may move an adjacent enemey unity to a space outside of radius by the shortest path."
-                        }
-                    ]
+                    "rank": "primary",
+                    "skillType": "Attack",
+                    "value": 5,
+                    "text": "After the attack push an adjacent enemy unit up to 1 space."
+                }
+            ]
+        },
+        {
+            "name": "Tiger Stance",
+            "cardType": "red",
+            "path":"primary",
+            "level": 2,
+            "initiative": 9,
+            "bonus": "Defense",
+            "skills": [ 
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 6
                 },
                 {
-                    "name": "Intimidate",
-                    "cardType":"blue",
-                    "path":"primary",
-                    "level": 3,
-                    "initiative": 10,
-                    "bonus": {
-                        "name": "Sword of Striking",
-                        "bonusType": {
-                            "name": "Attack",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 3
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Defense / Skill - Area",
-                            "value": 6,
-                            "area": 2,
-                            "text": "You may move an adjacent enemey unity to a space outside of radius by the shortest path. <b>This tuen:</b> That unity may not move."
-                        }
-                    ]
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 4
                 },
                 {
-                    "name": "Shields Up!",
-                    "cardType":"blue",
-                    "path":"alternate",
-                    "level": 2, 
-                    "initiative": 10,
-                    "bonus": {
-                        "name": "Rune Axe",
-                        "bonusType": {
-                            "name": "Attack",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 3
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Defense / Skill - Area",
-                            "value": 5,
-                            "area": 2,
-                            "text": "<b>This and next turn:</b> you and friendly heroes in radius are immune to ranged attacks. If you leave your current space, cancel this effect."
-                        }
-                    ]
-                }, 
+                    "rank": "primary",
+                    "skillType": "Attack",
+                    "value": 5,
+                    "text": "After the attack push an adjacent enemy units up to 2 spaces."
+                }
+
+            ]
+        },
+        {
+            "name": "Dragon Stance",
+            "cardType": "red",
+            "path":"primary",
+            "level": 3, 
+            "initiative": 10,
+            "bonus": "Radius",
+            "skills": [
                 {
-                    "name": "Testudo",
-                    "cardType":"blue",
-                    "path":"alternate",
-                    "level": 3,
-                    "initiative": 10,
-                    "bonus": {
-                        "name": "Lookouts Spyglass",
-                        "bonusType": {
-                            "name": "Range",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 3
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Defense / Skill - Area",
-                            "value": 6,
-                            "area": 2,
-                            "text": "<b>This and next turn:</b> you and friendly heroes in radius are immune to ranged attacks. If you leave your current space, cancel this effect."
-                        }
-                    ]
-                }, 
-                {
-                    "name": "Defiance",
-                    "cardType":"green",
-                    "path":"primary",
-                    "level": 1,
-                    "initiative": 5,
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 4
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 2
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Skill - Ranged",
-                            "range": 3, 
-                            "text": "Enemy hero in range chooses one - <ul><li>You place that hero into an adjacent space</li><li>You may retrieve a discarded card.</li></ul>"
-                        }
-                    ]
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 7
                 },
                 {
-                    "name": "Arrogance",
-                    "cardType":"green",
-                    "path":"primary",
-                    "level": 2,
-                    "initiative": 4,
-                    "bonus": {
-                        "name": "Scroll of Mobility",
-                        "bonusType": {
-                            "name": "Initiative",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 4
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 2
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Skill - Ranged",
-                            "range": 3, 
-                            "text": "Enemy hero in range chooses one - <ul><li>You place that hero into an adjacent space</li><li>You may retrieve a discarded card.</li></ul>"
-                        }
-                    ]
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 4
                 },
                 {
-                    "name": "Confidence",
-                    "cardType":"green",
-                    "path":"primary",
-                    "level": 3,
-                    "initiative": 4,
-                    "bonus": {
-                        "name": "Gloves of Haste",
-                        "bonusType": {
-                            "name": "Initiative",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 5
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 2
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Skill - Ranged",
-                            "range": 3, 
-                            "text": "Enemy hero in range chooses one - <ul><li>You place that hero into an adjacent space</li><li>You may retrieve a played or discarded card.</li></ul>"
-                        }
-                    ]
+                    "rank": "primary",
+                    "skillType": "Attack",
+                    "value": 5,
+                    "text": "After the attack push up to 2 adjacent enemy units up to 2 spaces."
+                }
+            ]
+        },
+        {
+            "name": "Viper Stance",
+            "cardType": "red",
+            "path":"alternate",
+            "level": 2, 
+            "initiative": 9,
+            "bonus":  "Initiative",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 5
                 },
                 {
-                    "name": "Light Pilum",
-                    "cardType":"green",
-                    "path":"alternate",
-                    "level": 2,
-                    "initiative": 4,
-                    "bonus": {
-                        "name": "Enchanted Armor",
-                        "bonusType": {
-                            "name": "Defense",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 4
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 2
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Skill - Ranged",
-                            "range": 3,
-                            "text": "If you are not adjacent to an enemy hero, an enemy hero in range discards a card id able."
-                        }
-                    ]
-                }, 
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 4
+                },
                 {
-                    "name": "Steam Valkyrie",
-                    "cardType":"green",
-                    "path":"alternate",
-                    "level": 3,
-                    "initiative": 4,
-                    "bonus": {
-                        "name": "War Talons",
-                        "bonusType": {
-                            "name": "Attack",
-                            "value": 1
-                        }
-                    },
-                    "skills": [
-                        {
-                            "rank": "secondary",
-                            "skillType": "Defense",
-                            "value": 4
-                        },
-                        {
-                            "rank": "secondary",
-                            "skillType": "Movement",
-                            "value": 2
-                        },
-                        {
-                            "rank": "primary",
-                            "skillType": "Skill - Ranged",
-                            "range": 3,
-                            "text": "If you are not adjacent to an enemy hero, an enemy hero in range discards a card or is defeated."
-                        }
-                    ]
-                }  
-            ]          
-        }
+                    "rank": "primary",
+                    "skillType": "Attack",
+                    "value": 4,
+                    "area": 2,
+                    "text": "After the attack you may swap places with a smoke bomb in radius."
+                }
+            ]
+        }, 
+        {
+            "name": "Cobra Stance",
+            "path":"alternate",
+            "cardType": "red",
+            "level": 3,
+            "initiative": 10,
+            "bonus": "Range",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 6
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 4
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Attack",
+                    "value": 5,
+                    "area": 2,
+                    "text": "After the attack you may swap places with a smoke bomb or mine in radius."
+                }
+            ]
+        }, 
+        {
+            "name": "Trip Mine",
+            "cardType":"blue",
+            "path":"primary",
+            "level": 1,
+            "initiative": 10,
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 4
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 3
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "Place 1 blast and 1 dud mine token in radius. Heroes may move through mines, If it's an enemy hero, if it's an enemy hero remove the token. If it's a blast that hero discards a card if able."
+                }
+            ]
+        },
+        {
+            "name": "Cluster Mine",
+            "cardType":"blue",
+            "path":"primary",
+            "level": 2,
+            "initiative": 11,
+            "bonus": "Attack",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 5
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 3
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "Place 1 blast and 2 dud mine tokens in radius. Heroes may move through mines, If it's an enemy hero, if it's an enemy hero remove the token. If it's a blast that hero discards a card if able."
+                }
+
+            ]
+        },
+        {
+            "name": "Mine Field",
+            "cardType":"blue",
+            "path":"primary",
+            "level": 3,
+            "initiative": 11,
+            "bonus": "Movement",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 5
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 3
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "Place 2 blast and 2 dud mine tokens in radius. Heroes may move through mines, If it's an enemy hero, if it's an enemy hero remove the token. If it's a blast that hero discards a card if able."
+                }
+            ]
+        },
+        {
+            "name": "Death Grenade",
+            "cardType":"blue",
+            "path":"alternate",
+            "level": 2, 
+            "initiative": 11,
+            "bonus": "Initiative",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 5
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 3
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Ranged",
+                    "range": 2,
+                    "text": "Place a blast token in range <b>Next turn:</b> Remove it Enemy heroes in the adjacent spaces discard a card if able."
+                }
+            ]
+        }, 
+        {
+            "name": "Holy Death Grenade",
+            "cardType":"blue",
+            "path":"alternate",
+            "level": 3,
+            "initiative": 11,
+            "bonus": "Initiative",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 5
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 3
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Ranged",
+                    "range": 2,
+                    "text": "Place a blast token in range <b>Next turn after playing cards:</b> Remove it Enemy heroes in the adjacent spaces discard a card or are defeated."
+                }
+            ]
+        }, 
+        {
+            "name": "Poof!",
+            "cardType":"green",
+            "path":"primary",
+            "level": 1,
+            "initiative": 2,
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 2
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Defense",
+                    "area": 2, 
+                    "text": "Swap places with a smoke bomb token in radius. If you do block the attack."
+                }
+            ]
+        },
+        {
+            "name": "Vanish",
+            "cardType":"green",
+            "path":"primary",
+            "level": 2,
+            "initiative": 2,
+            "bonus": "Defense",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 2
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Defense / Skill Area",
+                    "area": 2, 
+                    "text": "Swap places with a smoke bomb token in radius. If you do, when used as a defense, block the attack."
+                }
+            ]
+        },
+        {
+            "name": "Ruse",
+            "cardType":"green",
+            "path":"primary",
+            "level": 3,
+            "initiative": 1,
+            "bonus": "Defense",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 2
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Defense / Skill Area",
+                    "area": 2, 
+                    "text": "Swap places with a smoke bomb token in radius. If you do, when used as a defense, block the attack."
+                }
+            ]
+        },
+        {
+            "name": "Meditation",
+            "cardType":"green",
+            "path":"alternate",
+            "level": 2,
+            "initiative": 2,
+            "bonus": "Defense",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 3
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 2
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill",
+                    "text": "<b>This Round:</b> Double your item bonuses."
+                }
+            ]
+        }, 
+        {
+            "name": "Steam Valkyrie",
+            "cardType":"green",
+            "path":"alternate",
+            "level": 3,
+            "initiative": 1,
+            "bonus": "Attack",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 3
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 2
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill",
+                    "text": "<b>This Round:</b> Double your item bonuses. You are immune to enemy ranged attacks."
+                }
+            ]
+        }  
+    ]          
+}
