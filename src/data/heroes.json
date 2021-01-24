@@ -6531,6 +6531,1745 @@
                     ]
                 }  
             ]          
-        }        
+        },
+        {
+            "name": "Misa the Samurai",
+            "description": "Misa is a Mobility Disabler, with Brawler, Sniper, Controller, and Direct Damage options.",
+            "initiative": "Average",
+            "attack": "Exceptional",
+            "movement": "Exceptional",
+            "defense": "Above Average",
+            "showCards": false,
+            "cards": [
+                {
+                    "cardType": "gold",
+                    "name": "Watch Me Soar",
+                    "initiative": 11,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Basic Movement",
+                            "value": 5,
+                            "text": "<b>This turn:</b> You are immune to non-ranged attacks and skills. You may move through obstacles and tokens ignoring their effects Other units may move through you."
+                        }
+                    ]
+                },
+                {                
+                    "cardType": "silver",
+                    "name": "Exchange Blows",
+                    "initiative": 13,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Basic Skill - Area",
+                            "area":2,
+                            "text": "<b>This turn</b> If you have a card in hand, enemy heroes in radius may not attack. If an enemy in range performs a hold action they may discard a card. If they do, discard a card if able."
+                        }
+                    ]   
+                },
+                {                    
+                    "cardType": "purple",
+                    "name": "Divine Power",
+                    "initiative": 0,
+                    "skills": [
+                        {
+                            "rank": "Ultimate",
+                            "text": "Your <b>Next Turn<b/> active actions count as <b>This Round</b>."
+                        }
+                    ]   
+                },
+                {
+                    "name": "Challenge Accepted",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 9,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack",
+                            "value": 6,
+                            "text": "You must target an enemy hero if able. If that hero is not defeated gain 2 coins."
+                        }
+                    ]
+                },
+                {
+                    "name": "Matter of Honor",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 10,
+                    "bonus": "Initiative",
+                    "skills": [ 
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack",
+                            "value": 7,
+                            "text": "You must target an enemy hero if able. If that hero is not defeated gain 3 coins."
+                        }
+                    ]
+                },
+                {
+                    "name": "Dragon Stance",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 3, 
+                    "initiative": 10,
+                    "bonus": "Radius",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack",
+                            "value": 7,
+                            "text": "You must target an enemy hero if able. If that hero is not defeated gain 4 coins."
+                        }
+                    ]
+                },
+                {
+                    "name": "Eagle Eye",
+                    "cardType": "red",
+                    "path":"alternate",
+                    "level": 2, 
+                    "initiative": 8,
+                    "bonus":  "Defense",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 3,
+                            "range": 3,
+                            "text": "+1 Attack for every space with no obstacle between you and the target (Range is counted by the shortest distance of your choice)."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Cobra Stance",
+                    "path":"alternate",
+                    "cardType": "red",
+                    "level": 3,
+                    "initiative": 10,
+                    "bonus": "Range",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 3,
+                            "range": 3,
+                            "text": "+1 Attack for every space with no obstacle between you and the target (Range is counted by the shortest distance of your choice)."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Sudden Breeze",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 8,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "text": "Move up to 3 in a straight line ignoring obstacles."
+                        }
+                    ]
+                },
+                {
+                    "name": "Gust of Wind",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 8,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 7
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "text": "Move up to 3 in a straight line ignoring obstacles. You  may place 1 unit moved through into a space adjacent to you."
+                        }
+                    ]
+                },
+                {
+                    "name": "Crushing Squall",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 9,
+                    "bonus": "Range",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 7
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "text": "Move up to 4 in a straight line ignoring obstacles. You  may place 1 unit or token moved through into a space adjacent to you."
+                        }
+        
+                    ]
+                },
+                {
+                    "name": "Living Tornado",
+                    "cardType":"blue",
+                    "path":"alternate",
+                    "level": 2, 
+                    "initiative": 8,
+                    "bonus": "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 7
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "range": 3,
+                            "text": "Swap places of a non-adjacent unit in radius with another non-adjacent unit in radius,"
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Storm Spirit",
+                    "cardType":"blue",
+                    "path":"alternate",
+                    "level": 3,
+                    "initiative": 9,
+                    "bonus": "Movement",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 7
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "range": 3,
+                            "text": "Swap places with a non-adjacent unit in radius, or swap places of a non-adjacent unit in radius with another non-adjacent unit in radius,"
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Focus",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 4,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 3
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "text": "<b>Next turn:</b> After you resolve a skill you may repeat it once."
+                        }
+                    ]
+                },
+                {
+                    "name": "Discipline",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 4,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "text": "<b>Next turn:</b> After you resolve an attack or a skill you may repeat it once. May not attack the same hero twice this way."
+                        }            
+                    ]
+                },
+                {
+                    "name": "Mastery",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 3,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "text": "<b>Next turn:</b> After you resolve an action you may repeat it once. May not attack the same hero twice this way."
+                        }            
+                    ]
+                },
+                {
+                    "name": "Dash And Slash",
+                    "cardType":"green",
+                    "path":"alternate",
+                    "level": 2,
+                    "initiative": 4,
+                    "bonus": "Defense",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "text": "<b>Next turn:</b> The first enemy hero you move through discard a card if able, If a hero discards a card this way gain 1 coin."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Death From Above",
+                    "cardType":"green",
+                    "path":"alternate",
+                    "level": 3,
+                    "initiative": 3,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "text": "<b>Next turn:</b> The first enemy hero you move through discard a card or is defeated, If a hero discards a card this way gain 2 coin."
+                        }
+                    ]
+                }  
+            ]          
+        }    ,
+        {
+            "name": "Bain the Bounty Hunter",
+            "description": "Bain is an Initiator and Disabler, with Sniper, Pusher, Healer, Escape and Mobility options.",
+            "initiative": "Average",
+            "attack": "Very Good",
+            "movement": "Average",
+            "defense": "Average",
+            "showCards": false,
+            "cards": [
+                {
+                    "cardType": "gold",
+                    "name": "Collect Bounty",
+                    "initiative": 11,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 2
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Basic Skill - Area",
+                            "area": 2,
+                            "text": "Choose One - <br/><ul><li>Remove an adjacent enemy minion</li><li>Give an enemy hero in radius a bounty marker and gain 2 coins. If adjacent, that hero discards a card if able. <b>This round:</b> If a hero with a bounty marker is defeated, that hero spends 1 extra life counter.</li></ul>"
+                        }
+                    ]
+                },
+                {                
+                    "cardType": "silver",
+                    "name": "Get Over Here!",
+                    "initiative": 12,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Basic Skill - Ranged",
+                            "range":4,
+                            "text": "If there are no obstacles between you and a unit in a straight line, move that unit towards you until it is adjacent <b>This turn:</b> If it's an enemy unit it can't move."
+                        }
+                    ]   
+                },
+                {                    
+                    "cardType": "purple",
+                    "name": "It's a Complicated Profession",
+                    "initiative": 0,
+                    "skills": [
+                        {
+                            "rank": "Ultimate",
+                            "text": "If any one hero has a bounty marker, all enemy heroes count as having a bounty marker."
+                        }
+                    ]   
+                },
+                {
+                    "name": "Light Crossbow",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 8,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 5,
+                            "range": 3,
+                            "text": "May only attack in a straight line. May not attack through terrain or units."
+                        }
+                    ]
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 8,
+                    "bonus": "Defense",
+                    "skills": [ 
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 5,
+                            "range": 5,
+                            "text": "May only attack in a straight line. May not attack through terrain or units."
+                        }
+                    ]
+                },
+                {
+                    "name": "Impaler",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 3, 
+                    "initiative": 9,
+                    "bonus": "Defense",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 6,
+                            "range": 5,
+                            "text": "May only attack in a straight line. May not attack through terrain. Heroes between you and the target discard a card or are defeated."
+                        }
+                    ]
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "cardType": "red",
+                    "path":"alternate",
+                    "level": 2, 
+                    "initiative": 8,
+                    "bonus":  "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 4,
+                            "range": 3,
+                            "text": "Cannot target a hero unless that hero has a bounty marker."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Hunter-Seeker",
+                    "path":"alternate",
+                    "cardType": "red",
+                    "level": 3,
+                    "initiative": 9,
+                    "bonus": "Movement",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 5,
+                            "range": 3,
+                            "text": "Cannot target a hero unless that hero has a bounty marker. If you target a minion you may repeat once on a hero with a bounty marker."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "A Game of Chance",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 9,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 3
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "text": "An enemy in radius discards a card face down. Name a color. That hero may reveal and retrieve a card of that color (resolved, unresolved or discarded)"
+                        }
+                    ]
+                },
+                {
+                    "name": "Dead Man's Hand",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 10,
+                    "bonus": "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 3
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area":3,
+                            "text": "An enemy in radius discards a card face down. Name a color. That hero may reveal and retrieve a card of that color."
+                        }
+                    ]
+                },
+                {
+                    "name": "We're Not Done Yet",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 10,
+                    "bonus": "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area":3,
+                            "text": "An enemy in radius discards a card face down. Name a color. That hero may reveal and retrieve a card of that color. If they do, repet in once."
+                        }
+                    ]
+                },
+                {
+                    "name": "Drinking Buddies",
+                    "cardType":"blue",
+                    "path":"alternate",
+                    "level": 2, 
+                    "initiative": 10,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 3
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "You and up to 1 hero in radius may retrieve a discarded card. <b>Next turn:</b> That hero may not move to a space in a straight line."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Another One!",
+                    "cardType":"blue",
+                    "path":"alternate",
+                    "level": 3,
+                    "initiative": 10,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "range": 3,
+                            "text": "You and up to 1 hero in radius may retrieve a discarded card. <b>This and next turn:</b> That hero may not move to a space in a straight line."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Close Call",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 4,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Defense",
+                            "text": "Move up to 1 space. If you move at least 1 space this way block the attack. The attacker may retrieve that attack card."
+                        }
+                    ]
+                },
+                {
+                    "name": "Narrow Escape",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 4,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Defense",
+                            "text": "Move up to 2 spaces. If you move at least 1 space this way block the attack. The attacker may retrieve that attack card."
+                        }            
+                    ]
+                },
+                {
+                    "name": "Perfect Gateway",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 3,
+                    "bonus": "Radius",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Defense",
+                            "text": "Move up to 3 spaces. If you move at least 1 space this way block the attack. The attacker may retrieve that attack card."
+                        }                       
+                    ]
+                },
+                {
+                    "name": "Creepin",
+                    "cardType":"green",
+                    "path":"alternate",
+                    "level": 2,
+                    "initiative": 2,
+                    "bonus": "Defense",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Movement",
+                            "value": 3,
+                            "text": "You may move thorugh terrain and tokens."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Infiltrate",
+                    "cardType":"green",
+                    "path":"alternate",
+                    "level": 3,
+                    "initiative": 1,
+                    "bonus": "Range",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Def6ense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Movement",
+                            "value": 4,
+                            "text": "You may move thorugh terrain, tokens and units. Ignore any effects of the tokens you mopve through."
+                        }
+                    ]
+                }  
+            ]          
+        },
+        {
+            "name": "Ursafar the Savage",
+            "description": "Ursafar is a melee Brawler with Tank, Support, Direct Damage and token-removal options.",
+            "initiative": "Below Average",
+            "attack": "Good",
+            "movement": "Very Poor",
+            "defense": "Above Average",
+            "showCards": false,
+            "cards": [
+                {
+                    "cardType": "gold",
+                    "name": "Teeth and Claws",
+                    "initiative": 11,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 3
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Basic Attack",
+                            "area": 2,
+                            "text": "Before the attack: If you are enraged and not adjacent to an enemy hero move up to 1 space. After the attack: <b>This round:</b> you are enraged."
+                        }
+                    ]
+                },
+                {                
+                    "cardType": "silver",
+                    "name": "Angry Roar",
+                    "initiative": 12,
+                    "skills": [
+                        {
+                            "rank": "primary",
+                            "skillType": "Basic Defense / Skill",
+                            "text": "You may retrieve your resolved gold card. Push adjacent enemy minions up to 2 spaces. <b>This round:</b> you are enraged."
+                        }
+                    ]   
+                },
+                {                    
+                    "cardType": "purple",
+                    "name": "Unbound Fury",
+                    "initiative": 0,
+                    "skills": [
+                        {
+                            "rank": "Ultimate",
+                            "text": "You are always enraged."
+                        }
+                    ]   
+                },
+                {
+                    "name": "Accelerate Pace",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 8,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 7
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack",
+                            "value": 6,
+                            "text": "If you are enraged <b>This round: </b> Whenever you would move, you may move an adiitional 1 space."
+                        }
+                    ]
+                },
+                {
+                    "name": "Driven by Hunger",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 8,
+                    "bonus": "Defense",
+                    "skills": [ 
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 7
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack",
+                            "value": 6,
+                            "text": "If you are enraged <b>This round: </b> Whenever you would move, you may move up to an adiitional 2 spaces."
+                        }
+                    ]
+                },
+                {
+                    "name": "On The Hunt",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 3, 
+                    "initiative": 9,
+                    "bonus": "Defense",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 8
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack",
+                            "value": 7,
+                            "text": "If you are enraged <b>This round: </b> Whenever you would move, you may move up to an adiitional 3  spaces."
+                        }            
+                    ]
+                },
+                {
+                    "name": "Rip",
+                    "cardType": "red",
+                    "path":"alternate",
+                    "level": 2, 
+                    "initiative": 8,
+                    "bonus":  "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 7
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack",
+                            "value": 6,
+                            "text": "If you are enraged and defeat the target, gain 2 extra coins."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Tear",
+                    "path":"alternate",
+                    "cardType": "red",
+                    "level": 3,
+                    "initiative": 9,
+                    "bonus": "Radius",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 8
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack",
+                            "value": 7,
+                            "text": "If you are enraged and defeat the target, gain 2 extra coins. If you defeat a hero that hero spends 1 additional life counter."
+                        }
+        
+                    ]
+                }, 
+                {
+                    "name": "Prowling Brute",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 9,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Movement",
+                            "value": 2,
+                            "text": "If you are enraged you may swap places with an adjacent minion after moving."
+                        }
+                    ]
+                },
+                {
+                    "name": "Dead Man's Hand",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 10,
+                    "bonus": "Defense",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Movement",
+                            "value": 2,
+                            "text": "If you are enraged you may swap places with an adjacent unit or token after moving."
+                        }
+                    ]
+                },
+                {
+                    "name": "Juggernaut",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 10,
+                    "bonus": "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Movement",
+                            "value": 2,
+                            "text": "If you are enraged you may swap places with an adjacent unit or token before or after moving."
+                        }
+                    ]
+                },
+                {
+                    "name": "Hulking Menace",
+                    "cardType":"blue",
+                    "path":"alternate",
+                    "level": 2, 
+                    "initiative": 10,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Movement",
+                            "value": 2,
+                            "text": "If you are enraged. <b>This turn:</b> enemy units may not move through spaces adjacent to you."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Behemoth",
+                    "cardType":"blue",
+                    "path":"alternate",
+                    "level": 3,
+                    "initiative": 10,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 6
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Movement",
+                            "value": 2,
+                            "text": "If you are enraged. <b>This turn:</b> enemy units may not move into or  through spaces adjacent to you."
+                        }   
+                    ]
+                }, 
+                {
+                    "name": "Track Down",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 4,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 3
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 4,
+                            "text": "If you are enraged one enemy hero in radius, not adjacent to you or another unit, discards a card if able."
+                        }
+                    ]
+                },
+                {
+                    "name": "Eyes On The Prey",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 4,
+                    "bonus": "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 4,
+                            "text": "If you are enraged one enemy hero in radius, not adjacent to you or another unit, discards a card if able."
+                        }            
+                    ]
+                },
+                {
+                    "name": "Apex Predator",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 3,
+                    "bonus": "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 4,
+                            "text": "If you are enraged one enemy hero in radius, not adjacent to you or another unit, discards a card or is defeated."
+                        }                       
+                    ]
+                },
+                {
+                    "name": "Instictive Reaction",
+                    "cardType":"green",
+                    "path":"alternate",
+                    "level": 2,
+                    "initiative": 4,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "text": "If you are enraged, you may perform an action on your discarded card or retrieve a discarded card."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Rapid Regeneration",
+                    "cardType":"green",
+                    "path":"alternate",
+                    "level": 3,
+                    "initiative": 3,
+                    "bonus": "Movement",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill",
+                            "text": "If you are enraged, you may perform an action on your discarded card and/or retrieve that card."
+                        }
+                    ]
+                }  
+            ]          
+        },
+        {
+            "name": "Trinkets the Scavenger",
+            "description": "Trinkets is Pusher and a Sniper with Disabler, Area Denial, Crowd Control and Support options.",
+            "initiative": "Good",
+            "attack": "Average",
+            "movement": "Poor",
+            "defense": "Poor",
+            "showCards": false,
+            "cards": [
+                {
+                    "cardType": "gold",
+                    "name": "Quick Deployment",
+                    "initiative": 12,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 2
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Basic Skill - Ranged",
+                            "range": 3,
+                            "text": "<b>Choose one - </b><br/><ul><li>Move up to 2 spaces and place the turrent into an adjacent space. It counts as terrain. Remove it if you are defeated</li><li>Enemy hero in range of both you and the turret discards a card if able</li><li>Defeat an enemy minion in range of both you and the turret</li></ul>"
+                        }
+                    ]
+                },
+                {                
+                    "cardType": "silver",
+                    "name": "Salvage Parts",
+                    "initiative": 5,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 1
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Basic Skill",
+                            "text": "<b>Choose one - </b></br><ul><li>Place the turrent in an adjacent space. It counts as terrain. Remove it ony if you are defeated.</li><li>If you are adjacent to an empty minion spawn point you may retrieve a discarded card</li></ul>"
+                        }
+                    ]   
+                },
+                {                    
+                    "cardType": "purple",
+                    "name": "Outgun",
+                    "initiative": 0,
+                    "skills": [
+                        {
+                            "rank": "Ultimate",
+                            "text": "Whenever you perform a basic skill you may choose 2 instead of choosing 1. You may not target the same hero twice."
+                        }
+                    ]   
+                },
+                {
+                    "name": "Makeshift Machine Gun",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 8,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 3,
+                            "range": 2,
+                            "text": "Can only target in range of both you and the turret."
+                        }
+                    ]
+                },
+                {
+                    "name": "Gatling Gun",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 9,
+                    "bonus": "Defense",
+                    "skills": [ 
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 3,
+                            "range": 3,
+                            "text": "Can only target in range of both you and the turret. If the target is not defeated you may swap this card with a card in your hand."
+                        }
+                    ]
+                },
+                {
+                    "name": "Repeater Cannon",
+                    "cardType": "red",
+                    "path":"primary",
+                    "level": 3, 
+                    "initiative": 9,
+                    "bonus": "Defense",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 4,
+                            "range": 3,
+                            "text": "Can only target in range of both you and the turret. If the target is not defeated you may swap this card with a card in your hand."
+                        }            
+                    ]
+                },
+                {
+                    "name": "Steam Discharge",
+                    "cardType": "red",
+                    "path":"alternate",
+                    "level": 2, 
+                    "initiative": 9,
+                    "bonus":  "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 4,
+                            "range": 3,
+                            "text": "Can only target in range of both you and the turret. One enemy hero adjacent to the turret discards a card if able. Push enemy units adjacent to the turrent 1 space."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Flamethrower",
+                    "path":"alternate",
+                    "cardType": "red",
+                    "level": 3,
+                    "initiative": 9,
+                    "bonus": "Movement",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 4
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Attack - Ranged",
+                            "value": 5,
+                            "range": 3,
+                            "text": "Can only target in range of both you and the turret. One enemy hero adjacent to the turret discards a card if able. Push enemy units adjacent to the turrent 1 space."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Experimental Device",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 3,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 2
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 2,
+                            "text": "Swap yourself or a friendly unit or a token in radius of the turret with the turret."
+                        }
+                    ]
+                },
+                {
+                    "name": "Opertational Prototype",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 2,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 2
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "Swap yourself or a friendly unit or a token in radius of the turret with the turret."
+                        }
+                    ]
+                },
+                {
+                    "name": "Perfected Design",
+                    "cardType":"blue",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 2,
+                    "bonus": "Range",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 3
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "Swap yourself or a friendly unit or a token in radius of the turret with the turret. May repeat once and remove the turret."
+                        }
+                    ]
+                },
+                {
+                    "name": "Self-Destruct",
+                    "cardType":"blue",
+                    "path":"alternate",
+                    "level": 2, 
+                    "initiative": 2,
+                    "bonus": "Defense",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 2
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "Enemy heroes in radius of a turret discard a card if able. Remove the turret."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Emergency Protocol",
+                    "cardType":"blue",
+                    "path":"alternate",
+                    "level": 3,
+                    "initiative": 2,
+                    "bonus": "Defense",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 3
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 2
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "Enemy heroes in radius of a turret discard a card or are defeated. Remove the turret."
+                        }
+           
+                    ]
+                }, 
+                {
+                    "name": "Disruptor Jolt",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 1,
+                    "initiative": 10,
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 4
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "<b>This turn:</b> Enemy heroes in radius of the turret may not perform non-basic skills."
+                        }
+                    ]
+                },
+                {
+                    "name": "Disruptor Pulse",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 2,
+                    "initiative": 10,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "<b>This turn:</b> Enemy heroes in radius of the turret may not perform skills. Cancel active skills of enemies in radius."
+                        }            
+                    ]
+                },
+                {
+                    "name": "Disruptor Grid",
+                    "cardType":"green",
+                    "path":"primary",
+                    "level": 3,
+                    "initiative": 11,
+                    "bonus": "Attack",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "<b>This turncans next turn:</b> Enemy heroes in radius of the turret may not perform skills. Cancel active skills of enemies in radius."
+                        }                       
+                    ]
+                },
+                {
+                    "name": "Deployable Barrier",
+                    "cardType":"green", 
+                    "path":"alternate",
+                    "level": 2,
+                    "initiative": 10,
+                    "bonus": "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "Place up to 2 barrier tokens in radius from a turret. You and friendly heroes gain +1 defense ofr each adjacent barrier token."
+                        }
+                    ]
+                }, 
+                {
+                    "name": "Rapid Regeneration",
+                    "cardType":"green",
+                    "path":"alternate",
+                    "level": 3,
+                    "initiative": 3,
+                    "bonus": "Initiative",
+                    "skills": [
+                        {
+                            "rank": "secondary",
+                            "skillType": "Defense",
+                            "value": 5
+                        },
+                        {
+                            "rank": "secondary",
+                            "skillType": "Movement",
+                            "value": 3
+                        },
+                        {
+                            "rank": "primary",
+                            "skillType": "Skill - Area",
+                            "area": 3,
+                            "text": "Place up to 3 barrier tokens in radius from a turret. You and friendly heroes gain +1 defense ofr each adjacent barrier token."
+                        }
+                    ]
+                }  
+            ]          
+        }                            
     ]
 }

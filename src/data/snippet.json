@@ -1,76 +1,74 @@
 {
-    "name": "Min the Dragon Monk",
-    "description": "Min is a Melee Initiator, with Controller, Escape, Area Denial, Direct Damage and Tank Options.",
-    "initiative": "Exceptional",
-    "attack": "Below Average",
-    "movement": "Average",
-    "defense": "Below Average",
+    "name": "Trinkets the Scavenger",
+    "description": "Trinkets is Pusher and a Sniper with Disabler, Area Denial, Crowd Control and Support options.",
+    "initiative": "Good",
+    "attack": "Average",
+    "movement": "Poor",
+    "defense": "Poor",
     "showCards": false,
     "cards": [
         {
             "cardType": "gold",
-            "name": "Fast as Lightning",
-            "initiative": 13,
-            "skills": [
-                {
-                    "rank": "secondary",
-                    "skillType": "Defense",
-                    "value": 1
-                },
-                {
-                    "rank": "secondary",
-                    "skillType": "Move",
-                    "value": 1
-                },
-                {
-                    "rank": "primary",
-                    "skillType": "Basic Attack - Ranged",
-                    "range": 1,
-                    "value": 2,
-                    "text": "You may apply the text on your other played or discarded attack card to this attack"
-                }
-            ]
-        },
-        {                
-            "cardType": "silver",
-            "name": "Smoke Bomb",
+            "name": "Quick Deployment",
             "initiative": 12,
             "skills": [
                 {
                     "rank": "secondary",
                     "skillType": "Defense",
+                    "value": 2
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
                     "value": 1
                 },
                 {
                     "rank": "primary",
-                    "skillType": "Basic Skill - Area",
-                    "area":2,
-                    "text": "Place a smoke bomb in radius. You may move through the smoke bomb. Enemy heroes may not count the space with a smoke bomb when calculating range or radius."
+                    "skillType": "Basic Skill - Ranged",
+                    "range": 3,
+                    "text": "<b>Choose one - </b><br/><ul><li>Move up to 2 spaces and place the turrent into an adjacent space. It counts as terrain. Remove it if you are defeated</li><li>Enemy hero in range of both you and the turret discards a card if able</li><li>Defeat an enemy minion in range of both you and the turret</li></ul>"
+                }
+            ]
+        },
+        {                
+            "cardType": "silver",
+            "name": "Salvage Parts",
+            "initiative": 5,
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 1
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Basic Skill",
+                    "text": "<b>Choose one - </b></br><ul><li>Place the turrent in an adjacent space. It counts as terrain. Remove it ony if you are defeated.</li><li>If you are adjacent to an empty minion spawn point you may retrieve a discarded card</li></ul>"
                 }
             ]   
         },
         {                    
             "cardType": "purple",
-            "name": "Flurry of Blows",
+            "name": "Outgun",
             "initiative": 0,
             "skills": [
                 {
                     "rank": "Ultimate",
-                    "text": "When you perform an Attack action you may repeat it once. Choose a different target for the second attack if able."
+                    "text": "Whenever you perform a basic skill you may choose 2 instead of choosing 1. You may not target the same hero twice."
                 }
             ]   
         },
         {
-            "name": "Crane Stance",
+            "name": "Makeshift Machine Gun",
             "cardType": "red",
             "path":"primary",
             "level": 1,
-            "initiative": 9,
+            "initiative": 8,
             "skills": [
                 {
                     "rank": "secondary",
                     "skillType": "Defense",
-                    "value": 6
+                    "value": 4
                 },
                 {
                     "rank": "secondary",
@@ -79,14 +77,15 @@
                 },
                 {
                     "rank": "primary",
-                    "skillType": "Attack",
-                    "value": 5,
-                    "text": "After the attack push an adjacent enemy unit up to 1 space."
+                    "skillType": "Attack - Ranged",
+                    "value": 3,
+                    "range": 2,
+                    "text": "Can only target in range of both you and the turret."
                 }
             ]
         },
         {
-            "name": "Tiger Stance",
+            "name": "Gatling Gun",
             "cardType": "red",
             "path":"primary",
             "level": 2,
@@ -96,7 +95,7 @@
                 {
                     "rank": "secondary",
                     "skillType": "Defense",
-                    "value": 6
+                    "value": 5
                 },
                 {
                     "rank": "secondary",
@@ -105,25 +104,25 @@
                 },
                 {
                     "rank": "primary",
-                    "skillType": "Attack",
-                    "value": 5,
-                    "text": "After the attack push an adjacent enemy units up to 2 spaces."
+                    "skillType": "Attack - Ranged",
+                    "value": 3,
+                    "range": 3,
+                    "text": "Can only target in range of both you and the turret. If the target is not defeated you may swap this card with a card in your hand."
                 }
-
             ]
         },
         {
-            "name": "Dragon Stance",
+            "name": "Repeater Cannon",
             "cardType": "red",
             "path":"primary",
             "level": 3, 
-            "initiative": 10,
-            "bonus": "Radius",
+            "initiative": 9,
+            "bonus": "Defense",
             "skills": [
                 {
                     "rank": "secondary",
                     "skillType": "Defense",
-                    "value": 7
+                    "value": 5
                 },
                 {
                     "rank": "secondary",
@@ -132,14 +131,15 @@
                 },
                 {
                     "rank": "primary",
-                    "skillType": "Attack",
-                    "value": 5,
-                    "text": "After the attack push up to 2 adjacent enemy units up to 2 spaces."
-                }
+                    "skillType": "Attack - Ranged",
+                    "value": 4,
+                    "range": 3,
+                    "text": "Can only target in range of both you and the turret. If the target is not defeated you may swap this card with a card in your hand."
+                }            
             ]
         },
         {
-            "name": "Viper Stance",
+            "name": "Steam Discharge",
             "cardType": "red",
             "path":"alternate",
             "level": 2, 
@@ -158,98 +158,19 @@
                 },
                 {
                     "rank": "primary",
-                    "skillType": "Attack",
+                    "skillType": "Attack - Ranged",
                     "value": 4,
-                    "area": 2,
-                    "text": "After the attack you may swap places with a smoke bomb in radius."
+                    "range": 3,
+                    "text": "Can only target in range of both you and the turret. One enemy hero adjacent to the turret discards a card if able. Push enemy units adjacent to the turrent 1 space."
                 }
             ]
         }, 
         {
-            "name": "Cobra Stance",
+            "name": "Flamethrower",
             "path":"alternate",
             "cardType": "red",
             "level": 3,
-            "initiative": 10,
-            "bonus": "Range",
-            "skills": [
-                {
-                    "rank": "secondary",
-                    "skillType": "Defense",
-                    "value": 6
-                },
-                {
-                    "rank": "secondary",
-                    "skillType": "Movement",
-                    "value": 4
-                },
-                {
-                    "rank": "primary",
-                    "skillType": "Attack",
-                    "value": 5,
-                    "area": 2,
-                    "text": "After the attack you may swap places with a smoke bomb or mine in radius."
-                }
-            ]
-        }, 
-        {
-            "name": "Trip Mine",
-            "cardType":"blue",
-            "path":"primary",
-            "level": 1,
-            "initiative": 10,
-            "skills": [
-                {
-                    "rank": "secondary",
-                    "skillType": "Defense",
-                    "value": 4
-                },
-                {
-                    "rank": "secondary",
-                    "skillType": "Movement",
-                    "value": 3
-                },
-                {
-                    "rank": "primary",
-                    "skillType": "Skill - Area",
-                    "area": 3,
-                    "text": "Place 1 blast and 1 dud mine token in radius. Heroes may move through mines, If it's an enemy hero, if it's an enemy hero remove the token. If it's a blast that hero discards a card if able."
-                }
-            ]
-        },
-        {
-            "name": "Cluster Mine",
-            "cardType":"blue",
-            "path":"primary",
-            "level": 2,
-            "initiative": 11,
-            "bonus": "Attack",
-            "skills": [
-                {
-                    "rank": "secondary",
-                    "skillType": "Defense",
-                    "value": 5
-                },
-                {
-                    "rank": "secondary",
-                    "skillType": "Movement",
-                    "value": 3
-                },
-                {
-                    "rank": "primary",
-                    "skillType": "Skill - Area",
-                    "area": 3,
-                    "text": "Place 1 blast and 2 dud mine tokens in radius. Heroes may move through mines, If it's an enemy hero, if it's an enemy hero remove the token. If it's a blast that hero discards a card if able."
-                }
-
-            ]
-        },
-        {
-            "name": "Mine Field",
-            "cardType":"blue",
-            "path":"primary",
-            "level": 3,
-            "initiative": 11,
+            "initiative": 9,
             "bonus": "Movement",
             "skills": [
                 {
@@ -260,177 +181,273 @@
                 {
                     "rank": "secondary",
                     "skillType": "Movement",
+                    "value": 4
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Attack - Ranged",
+                    "value": 5,
+                    "range": 3,
+                    "text": "Can only target in range of both you and the turret. One enemy hero adjacent to the turret discards a card if able. Push enemy units adjacent to the turrent 1 space."
+                }
+            ]
+        }, 
+        {
+            "name": "Experimental Device",
+            "cardType":"blue",
+            "path":"primary",
+            "level": 1,
+            "initiative": 3,
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 2
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 2
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 2,
+                    "text": "Swap yourself or a friendly unit or a token in radius of the turret with the turret."
+                }
+            ]
+        },
+        {
+            "name": "Opertational Prototype",
+            "cardType":"blue",
+            "path":"primary",
+            "level": 2,
+            "initiative": 2,
+            "bonus": "Attack",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 2
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 2
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "Swap yourself or a friendly unit or a token in radius of the turret with the turret."
+                }
+            ]
+        },
+        {
+            "name": "Perfected Design",
+            "cardType":"blue",
+            "path":"primary",
+            "level": 3,
+            "initiative": 2,
+            "bonus": "Range",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 3
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 2
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "Swap yourself or a friendly unit or a token in radius of the turret with the turret. May repeat once and remove the turret."
+                }
+            ]
+        },
+        {
+            "name": "Self-Destruct",
+            "cardType":"blue",
+            "path":"alternate",
+            "level": 2, 
+            "initiative": 2,
+            "bonus": "Defense",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 2
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 2
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "Enemy heroes in radius of a turret discard a card if able. Remove the turret."
+                }
+            ]
+        }, 
+        {
+            "name": "Emergency Protocol",
+            "cardType":"blue",
+            "path":"alternate",
+            "level": 3,
+            "initiative": 2,
+            "bonus": "Defense",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 3
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 2
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "Enemy heroes in radius of a turret discard a card or are defeated. Remove the turret."
+                }
+   
+            ]
+        }, 
+        {
+            "name": "Disruptor Jolt",
+            "cardType":"green",
+            "path":"primary",
+            "level": 1,
+            "initiative": 10,
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 4
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
                     "value": 3
                 },
                 {
                     "rank": "primary",
                     "skillType": "Skill - Area",
                     "area": 3,
-                    "text": "Place 2 blast and 2 dud mine tokens in radius. Heroes may move through mines, If it's an enemy hero, if it's an enemy hero remove the token. If it's a blast that hero discards a card if able."
+                    "text": "<b>This turn:</b> Enemy heroes in radius of the turret may not perform non-basic skills."
                 }
             ]
         },
         {
-            "name": "Death Grenade",
-            "cardType":"blue",
-            "path":"alternate",
-            "level": 2, 
-            "initiative": 11,
-            "bonus": "Initiative",
-            "skills": [
-                {
-                    "rank": "secondary",
-                    "skillType": "Defense",
-                    "value": 5
-                },
-                {
-                    "rank": "secondary",
-                    "skillType": "Movement",
-                    "value": 3
-                },
-                {
-                    "rank": "primary",
-                    "skillType": "Skill - Ranged",
-                    "range": 2,
-                    "text": "Place a blast token in range <b>Next turn:</b> Remove it Enemy heroes in the adjacent spaces discard a card if able."
-                }
-            ]
-        }, 
-        {
-            "name": "Holy Death Grenade",
-            "cardType":"blue",
-            "path":"alternate",
-            "level": 3,
-            "initiative": 11,
-            "bonus": "Initiative",
-            "skills": [
-                {
-                    "rank": "secondary",
-                    "skillType": "Defense",
-                    "value": 5
-                },
-                {
-                    "rank": "secondary",
-                    "skillType": "Movement",
-                    "value": 3
-                },
-                {
-                    "rank": "primary",
-                    "skillType": "Skill - Ranged",
-                    "range": 2,
-                    "text": "Place a blast token in range <b>Next turn after playing cards:</b> Remove it Enemy heroes in the adjacent spaces discard a card or are defeated."
-                }
-            ]
-        }, 
-        {
-            "name": "Poof!",
-            "cardType":"green",
-            "path":"primary",
-            "level": 1,
-            "initiative": 2,
-            "skills": [
-                {
-                    "rank": "secondary",
-                    "skillType": "Movement",
-                    "value": 2
-                },
-                {
-                    "rank": "primary",
-                    "skillType": "Defense",
-                    "area": 2, 
-                    "text": "Swap places with a smoke bomb token in radius. If you do block the attack."
-                }
-            ]
-        },
-        {
-            "name": "Vanish",
+            "name": "Disruptor Pulse",
             "cardType":"green",
             "path":"primary",
             "level": 2,
-            "initiative": 2,
-            "bonus": "Defense",
-            "skills": [
-                {
-                    "rank": "secondary",
-                    "skillType": "Movement",
-                    "value": 2
-                },
-                {
-                    "rank": "primary",
-                    "skillType": "Defense / Skill Area",
-                    "area": 2, 
-                    "text": "Swap places with a smoke bomb token in radius. If you do, when used as a defense, block the attack."
-                }
-            ]
-        },
-        {
-            "name": "Ruse",
-            "cardType":"green",
-            "path":"primary",
-            "level": 3,
-            "initiative": 1,
-            "bonus": "Defense",
-            "skills": [
-                {
-                    "rank": "secondary",
-                    "skillType": "Movement",
-                    "value": 2
-                },
-                {
-                    "rank": "primary",
-                    "skillType": "Defense / Skill Area",
-                    "area": 2, 
-                    "text": "Swap places with a smoke bomb token in radius. If you do, when used as a defense, block the attack."
-                }
-            ]
-        },
-        {
-            "name": "Meditation",
-            "cardType":"green",
-            "path":"alternate",
-            "level": 2,
-            "initiative": 2,
-            "bonus": "Defense",
-            "skills": [
-                {
-                    "rank": "secondary",
-                    "skillType": "Defense",
-                    "value": 3
-                },
-                {
-                    "rank": "secondary",
-                    "skillType": "Movement",
-                    "value": 2
-                },
-                {
-                    "rank": "primary",
-                    "skillType": "Skill",
-                    "text": "<b>This Round:</b> Double your item bonuses."
-                }
-            ]
-        }, 
-        {
-            "name": "Steam Valkyrie",
-            "cardType":"green",
-            "path":"alternate",
-            "level": 3,
-            "initiative": 1,
+            "initiative": 10,
             "bonus": "Attack",
             "skills": [
                 {
                     "rank": "secondary",
                     "skillType": "Defense",
-                    "value": 3
+                    "value": 5
                 },
                 {
                     "rank": "secondary",
                     "skillType": "Movement",
-                    "value": 2
+                    "value": 3
                 },
                 {
                     "rank": "primary",
-                    "skillType": "Skill",
-                    "text": "<b>This Round:</b> Double your item bonuses. You are immune to enemy ranged attacks."
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "<b>This turn:</b> Enemy heroes in radius of the turret may not perform skills. Cancel active skills of enemies in radius."
+                }            
+            ]
+        },
+        {
+            "name": "Disruptor Grid",
+            "cardType":"green",
+            "path":"primary",
+            "level": 3,
+            "initiative": 11,
+            "bonus": "Attack",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 5
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 3
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "<b>This turncans next turn:</b> Enemy heroes in radius of the turret may not perform skills. Cancel active skills of enemies in radius."
+                }                       
+            ]
+        },
+        {
+            "name": "Deployable Barrier",
+            "cardType":"green", 
+            "path":"alternate",
+            "level": 2,
+            "initiative": 10,
+            "bonus": "Initiative",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 5
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 3
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "Place up to 2 barrier tokens in radius from a turret. You and friendly heroes gain +1 defense ofr each adjacent barrier token."
+                }
+            ]
+        }, 
+        {
+            "name": "Rapid Regeneration",
+            "cardType":"green",
+            "path":"alternate",
+            "level": 3,
+            "initiative": 3,
+            "bonus": "Initiative",
+            "skills": [
+                {
+                    "rank": "secondary",
+                    "skillType": "Defense",
+                    "value": 5
+                },
+                {
+                    "rank": "secondary",
+                    "skillType": "Movement",
+                    "value": 3
+                },
+                {
+                    "rank": "primary",
+                    "skillType": "Skill - Area",
+                    "area": 3,
+                    "text": "Place up to 3 barrier tokens in radius from a turret. You and friendly heroes gain +1 defense ofr each adjacent barrier token."
                 }
             ]
         }  
